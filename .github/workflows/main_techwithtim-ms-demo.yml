@@ -6,7 +6,7 @@ name: 'Build and deploy Python app to Azure Web App: techwithtim-ms-demo'
 on:
   push:
     branches:
-    - main
+    - prod
   workflow_dispatch:
 
 jobs:
